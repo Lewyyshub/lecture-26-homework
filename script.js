@@ -10,7 +10,7 @@ async function addTitleAndPrice() {
     number++;
   } catch (error) {
     let p1 = document.createElement("p");
-    p1.textContent = "შენგან პროგრამისტი არ გამოვა";
+    p1.textContent = "გაგვითავდა ძმა";
     document.body.appendChild(p1);
   }
 }
